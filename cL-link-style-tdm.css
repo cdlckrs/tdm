@@ -21,8 +21,26 @@
 /* ----- // BOOTSTRAP v5.x.x (start) // ------ */
 
 
+
+
+
 /* ----- // BOOTSTRAP v5.x.x (end) // ------ */
 
+
+
+/* ----- // MENU bootstrap offcanvas (start) // ------ */
+
+/*LAUNCH*/
+#launch a:before {
+content: '\e732';
+font-family: themify;
+display: inline-block;
+vertical-align: text-bottom;
+font-size: 22px;
+font-weight: 800;
+margin-right: 10px; }
+
+/* ----- // MENU bootstrap offcanvas (start) // ------ */
 
 
 /* ----- // PAPERFORM (start) // ------ */
