@@ -1,3 +1,29 @@
+
+/* ----- // TYPEDREAM (start) // ------ */
+
+
+.block-fcd-tdm {
+  margin-top: 20px !important;
+  margin-bottom: 0px !important;
+  margin-right: 5% !important;
+  margin-left: 5% !important; 
+}
+
+
+/* ----- // TYPEDREAM (end) // ------ */
+
+
+
+/* ----- // BOOTSTRAP v5.x.x (start) // ------ */
+
+.container-fluid {
+  --bs-gutter-x: 45px !important;
+}
+
+/* ----- // BOOTSTRAP v5.x.x (end) // ------ */
+
+
+
 /* ----- // PAPERFORM (start) // ------ */
 
 /* paperform popup style (start) */
