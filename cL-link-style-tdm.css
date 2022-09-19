@@ -26,7 +26,7 @@ a {
 }
 
 a:hover {
-	color: #708bff !important;
+	color: #70ffa9 !important;
 	font-weight: 700 !important;
 }
 
@@ -39,9 +39,6 @@ a:visited {
 	color: #708bff !important;
 	font-weight: 700 !important;
 }
-
-
-
 
 /* ----- // BOOTSTRAP v5.x.x (end) // ------ */
 
@@ -61,13 +58,14 @@ a:visited {
 
 .nav-link-tdm {
   font-family: 'Comfortaa' !important;
-  font-size: 18px !important;
+  font-size: 16px !important;
   margin-bottom: 10px !important;
   vertical-align: middle !important;
+  font-weight: 700 !important;
 }
 
 .nav-icon-tdm {
-  font-size: 24px !important;
+  font-size: 32px !important;
   margin-right: 10px !important;
   margin-bottom: 10px !important;
   vertical-align: middle !important;
