@@ -30,17 +30,10 @@
 
 /* ----- // MENU bootstrap offcanvas (start) // ------ */
 
-
-
-/* ----- // MENU bootstrap offcanvas (start) // ------ */
-
-
-
-/* ----- // MENU bootstrap offcanvas (start) // ------ */
-
 .menu-link-tdm {
   font-family: 'Comfortaa' !important;
-  font-size: 48px !important;
+  font-size: 28px !important;
+  margin-bottom: 10px !important;
 }
 
 
@@ -100,17 +93,18 @@
 }
 
 .menu-icon-tdm {
-  color: #d2dbff;
-  font-size: 48px;  /* Preferred icon size */
+  color: #708bff;
+  font-size: 28px !important;
   margin-right: 10px !important;
+  margin-bottom: 10px !important;
 }
 
 .menu-icon-tdm:hover {
-  color: #708bff;
+  color: #70ffa9 !important;
 }
 
 .menu-icon-tdm:active {
-  color: #708bff;
+  color: #70ffa9 !important;
 }
 
 /* ----- // GOOGLE ICONS (end) // ------ */
