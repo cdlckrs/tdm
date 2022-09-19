@@ -31,11 +31,13 @@
 /* ----- // NAV bootstrap offcanvas (start) // ------ */
 
 .nav-list-group-tdm {
-	padding: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .nav-list-item-tdm {
 	color: #708bff !important;
+	vertical-align: middle !important;
 }
 
 .nav-list-item-tdm:hover {
@@ -47,17 +49,17 @@
 }
 
 .nav-link-tdm {
-  color: #708bff !important;
   font-family: 'Comfortaa' !important;
-  font-size: 24px !important;
+  font-size: 18px !important;
   margin-bottom: 10px !important;
+  vertical-align: middle !important;
 }
 
 .nav-icon-tdm {
-  color: #708bff !important;
-  font-size: 48px !important;
+  font-size: 24px !important;
   margin-right: 10px !important;
   margin-bottom: 10px !important;
+  vertical-align: middle !important;
 }
 
 .btn-close {
