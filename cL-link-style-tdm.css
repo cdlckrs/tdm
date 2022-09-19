@@ -88,7 +88,7 @@ a .nav-link-tdm:visited {
     position: fixed;
     top: 20px;
     left: 20px;
-    width: 180px;
+    width: 200px;
 
 }
 
@@ -98,8 +98,12 @@ a .nav-link-tdm:visited {
 
 /* ----- // NAV bootstrap offcanvas (start) // ------ */
 
+.offcanvas {
+  --bs-offcanvas-width: 240px;
+}
+
 .nav-list-group-tdm {
-	padding-left: 20px;
+	padding-left: 25px;
 	padding-right: 20px;
 	font-weight: 600 !important;
 }
@@ -126,18 +130,22 @@ a .nav-link-tdm:visited {
 
 .btn-close {
 	color: #708bff !important;
+  opacity: .2 !important;
 }
 
 .btn-close:hover {
 	color: #708bff !important;
+  opacity: .4 !important;
 }
 
 .btn-close:focus {
 	box-shadow: none !important;
+  opacity: .4 !important;
 }
 
 
 /* ----- // NAV bootstrap offcanvas (start) // ------ */
+
 
 
 
