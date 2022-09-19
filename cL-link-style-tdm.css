@@ -28,12 +28,10 @@ a {
 
 a:hover {
   color: #708bff !important;
-  font-weight: 700 !important;
 }
 
 a:active {
   color: #708bff !important;
-  font-weight: 700 !important;
 }
 
 a .nav-link-tdm {
@@ -99,11 +97,11 @@ a .nav-link-tdm:visited {
 /* ----- // NAV bootstrap offcanvas (start) // ------ */
 
 .offcanvas {
-  --bs-offcanvas-width: 240px;
+  --bs-offcanvas-width: 240px !important;
 }
 
 .nav-list-group-tdm {
-	padding-left: 25px;
+	padding-left: 20px !important;
 	padding-right: 20px;
 	font-weight: 600 !important;
 }
@@ -145,7 +143,6 @@ a .nav-link-tdm:visited {
 
 
 /* ----- // NAV bootstrap offcanvas (start) // ------ */
-
 
 
 
