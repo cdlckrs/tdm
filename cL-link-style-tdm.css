@@ -1639,31 +1639,31 @@ a:hover, a:focus {
 
 .fixed-widget-upper-right-fcd {
     position: fixed;
-    top: 25px;
-    right: 25px;
+    top: 20px;
+    right: 20px;
     width: 100px;
 }
 
 .fixed-widget-bottom-right-fcd {
     position: fixed;
     bottom: 45px;
-    right: 25px;
+    right: 20px;
     width: 100px;
 }
 
 .fixed-widget-bottom-right-ftr {
     position: fixed;
-    bottom: 180px;
-    right: 25px;
+    bottom: 45px;
+    right: 20px;
     width: 100px;
     z-index: 3 !important;
 }
 
 .fixed-widget-upper-left-logo-fcd {
     position: fixed;
-    top: 25px;
-    left: 25px;
-    width: 20%;
+    top: 20px;
+    left: 20px;
+    width: 200px;
 
 }
 
