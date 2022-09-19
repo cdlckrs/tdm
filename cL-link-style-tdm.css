@@ -30,6 +30,22 @@
 
 /* ----- // NAV bootstrap offcanvas (start) // ------ */
 
+.nav-list-group-tdm {
+	padding: 30px;
+}
+
+.nav-list-item-tdm {
+	color: #708bff !important;
+}
+
+.nav-list-item-tdm:hover {
+	color: #70ffa9 !important;
+}
+
+.nav-list-item-tdm:active {
+	color: #70ffa9 !important;
+}
+
 .nav-link-tdm {
   color: #708bff !important;
   font-family: 'Comfortaa' !important;
@@ -37,17 +53,28 @@
   margin-bottom: 10px !important;
 }
 
-.nav-link-tdm:hover {
-	color: #70ffa9 !important;
+.nav-icon-tdm {
+  color: #708bff !important;
+  font-size: 48px !important;
+  margin-right: 10px !important;
+  margin-bottom: 10px !important;
 }
 
-.nav-link-tdm:active {
-	color: #70ffa9 !important;
+.btn-close {
+	color: #708bff !important;
 }
 
+.btn-close:hover {
+	color: #708bff !important;
+}
+
+.btn-close:focus {
+	box-shadow: none !important;
+}
 
 
 /* ----- // NAV bootstrap offcanvas (start) // ------ */
+
 
 
 
@@ -100,22 +127,6 @@
   /* Support for IE. */
   font-feature-settings: 'liga';
 }
-
-.nav-icon-tdm {
-  color: #708bff !important;
-  font-size: 24px !important;
-  margin-right: 10px !important;
-  margin-bottom: 10px !important;
-}
-
-.nav-icon-tdm:hover {
-  color: #70ffa9 !important;
-}
-
-.nav-icon-tdm:active {
-  color: #70ffa9 !important;
-}
-
 /* ----- // GOOGLE ICONS (end) // ------ */
 
 /* ----- // PAPERFORM (start) // ------ */
