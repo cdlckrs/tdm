@@ -20,6 +20,25 @@
 
 /* ----- // BOOTSTRAP v5.x.x (start) // ------ */
 
+a {
+	color: #708bff !important;
+	font-weight: 700 !important;
+}
+
+a:hover {
+	color: #708bff !important;
+	font-weight: 700 !important;
+}
+
+a:active {
+	color: #70ffa9 !important;
+	font-weight: 700 !important;
+}
+
+a:visited {
+	color: #708bff !important;
+	font-weight: 700 !important;
+}
 
 
 
@@ -38,14 +57,6 @@
 .nav-list-item-tdm {
 	color: #708bff !important;
 	vertical-align: middle !important;
-}
-
-.nav-list-item-tdm:hover {
-	color: #70ffa9 !important;
-}
-
-.nav-list-item-tdm:active {
-	color: #70ffa9 !important;
 }
 
 .nav-link-tdm {
@@ -76,6 +87,7 @@
 
 
 /* ----- // NAV bootstrap offcanvas (start) // ------ */
+
 
 
 
