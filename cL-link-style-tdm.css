@@ -36,13 +36,25 @@
 
 
 
+/* ----- // MENU bootstrap offcanvas (start) // ------ */
+
+.menu-link-tdm {
+  font-family: 'Comfortaa' !important;
+  font-size: 48px !important;
+}
+
+
+
+/* ----- // MENU bootstrap offcanvas (start) // ------ */
+
+
+
 /* ----- // GOOGLE ICONS (start) // ------ */
 
 .material-icons {
   font-family: 'Material Icons';
   font-weight: normal;
   font-style: normal;
-  font-size: 24px;  /* Preferred icon size */
   display: inline-block;
   line-height: 1;
   text-transform: none;
@@ -67,7 +79,6 @@
   font-family: 'Material Icons';
   font-weight: normal;
   font-style: normal;
-  font-size: 24px;  /* Preferred icon size */
   display: inline-block;
   line-height: 1;
   text-transform: none;
@@ -88,9 +99,21 @@
   font-feature-settings: 'liga';
 }
 
+.menu-icon-tdm {
+  color: #d2dbff;
+  font-size: 48px;  /* Preferred icon size */
+  margin-right: 10px !important;
+}
+
+.menu-icon-tdm:hover {
+  color: #708bff;
+}
+
+.menu-icon-tdm:active {
+  color: #708bff;
+}
 
 /* ----- // GOOGLE ICONS (end) // ------ */
-
 
 
 /* ----- // PAPERFORM (start) // ------ */
