@@ -1641,21 +1641,21 @@ a:hover, a:focus {
     position: fixed;
     top: 20px;
     right: 20px;
-    width: 100px;
+    width: 60px;
 }
 
 .fixed-widget-bottom-right-fcd {
     position: fixed;
-    bottom: 45px;
+    bottom: 20px;
     right: 20px;
-    width: 100px;
+    width: 60px;
 }
 
 .fixed-widget-bottom-right-ftr {
     position: fixed;
-    bottom: 45px;
+    bottom: 20px;
     right: 20px;
-    width: 100px;
+    width: 60px;
     z-index: 3 !important;
 }
 
@@ -1663,12 +1663,11 @@ a:hover, a:focus {
     position: fixed;
     top: 20px;
     left: 20px;
-    width: 200px;
+    width: 225px;
 
 }
 
 /* ----- // FIXED WIDGETS (end) // ------ */
-
 /* start COLORS */
 
 .green {
