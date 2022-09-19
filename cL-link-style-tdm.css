@@ -28,17 +28,26 @@
 
 
 
-/* ----- // MENU bootstrap offcanvas (start) // ------ */
+/* ----- // NAV bootstrap offcanvas (start) // ------ */
 
-.menu-link-tdm {
+.nav-link-tdm {
+  color: #708bff !important;
   font-family: 'Comfortaa' !important;
-  font-size: 28px !important;
+  font-size: 24px !important;
   margin-bottom: 10px !important;
+}
+
+.nav-link-tdm:hover {
+	color: #70ffa9 !important;
+}
+
+.nav-link-tdm:active {
+	color: #70ffa9 !important;
 }
 
 
 
-/* ----- // MENU bootstrap offcanvas (start) // ------ */
+/* ----- // NAV bootstrap offcanvas (start) // ------ */
 
 
 
@@ -92,23 +101,22 @@
   font-feature-settings: 'liga';
 }
 
-.menu-icon-tdm {
-  color: #708bff;
-  font-size: 28px !important;
+.nav-icon-tdm {
+  color: #708bff !important;
+  font-size: 24px !important;
   margin-right: 10px !important;
   margin-bottom: 10px !important;
 }
 
-.menu-icon-tdm:hover {
+.nav-icon-tdm:hover {
   color: #70ffa9 !important;
 }
 
-.menu-icon-tdm:active {
+.nav-icon-tdm:active {
   color: #70ffa9 !important;
 }
 
 /* ----- // GOOGLE ICONS (end) // ------ */
-
 
 /* ----- // PAPERFORM (start) // ------ */
 
