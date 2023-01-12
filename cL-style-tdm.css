@@ -372,16 +372,37 @@ p {
 
 }
 
-/* Hide scrollbar for Chrome, Safari and Opera */
+/* (start) scrollbar for Chrome, Safari and Opera */
+
 .offcanvas-body::-webkit-scrollbar {
-  display: none;
+  width: 10px !important;
+
 }
 
-/* Hide scrollbar for IE, Edge and Firefox */
-.offcanvas-body {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+.offcanvas-body::-webkit-scrollbar-track {
+  background: #ffffff !important; 
 }
+
+.offcanvas-body::-webkit-scrollbar-thumb {
+  background: rgba(112,139,255, 0.3) !important;
+  border-radius: 10px !important;;
+}
+
+.offcanvas-body::-webkit-scrollbar-thumb:hover {
+  background: #708bff !important;
+  border-radius: 10px !important;;
+}
+
+/* (end) scrollbar for Chrome, Safari and Opera */
+
+
+/* (start) scrollbar for IE, Edge and Firefox */
+.offcanvas-body {
+  scrollbar-width: 10px !important;;  /* Firefox */
+  scrollbar-color: #708bff !important;;
+}
+
+/* (end) scrollbar for IE, Edge and Firefox */
 
 .nav-list-group-tdm {
 	padding-left: 20px !important;
@@ -393,7 +414,7 @@ p {
 
 .nav-list-group-item-white-background {
   border-radius: 50px !important;
-  box-shadow: 0px 10px 48px 8px rgb(0 0 0 / 2%), 0px 4px 12px 0px rgb(0 0 0 / 5%);
+  box-shadow: none !important;
   padding-top: 2px;
   padding-bottom: 2px;
   background-color: #ffffff !important;
@@ -571,476 +592,6 @@ p {
 
 
 
-/* start MEMBERSTACK */
-
-.font-heavy {
-  font-weight: 700 !important;
-}
-
-.ms-style .ms-portal-plan-terms {
-  font-family: 'Comfortaa' !important;
-}
-
-#memberstack-checkout > div.ms-modal-container.ms-container-override > div.ms-checkout-header.ms-white-bg-override > div:nth-child(3) {
-  margin-top: 20px !important;
-}
-
-.ms-style .ms-canceled-inline {
-  font-family: 'Comfortaa' !important;
-  color: #ff5a6d !important;
-  padding-top: 10px !important;
-}
-
-#billing > div:nth-child(1) > div.ms-portal-sub-wrapper > div.ms-portal-card-drawer > div.ms-profile-btn {
-  font-family: 'Comfortaa' !important;
-  text-transform: uppercase !important;
-}
-
-#billing > div:nth-child(1) > div.ms-portal-sub-wrapper > div.ms-portal-card-drawer > div.ms-portal-h2 {
-  font-family: 'Comfortaa' !important;
-  color: #ff5a6d !important;
-}
-
-#account > div:nth-child(2) > div.ms-portal-button {
-  font-family: 'Comfortaa' !important;
-}
-
-#account > div:nth-child(3) > div.ms-portal-h1 {
-  font-size: 0px !important;
-}
-
-#account > div:nth-child(3) > div.ms-portal-h1::before {
-  font-family: 'Comfortaa' !important;
-  font-size: 14px !important;
-  content: "Change your password." !important;
-  text-transform: lowercase !important;
-  color: #5f5f5f !important;
-}
-
-#account > div:nth-child(2) > div.ms-portal-h1 {
-  font-size: 0px !important;
-}
-
-#account > div:nth-child(2) > div.ms-portal-h1::before {
-  font-family: 'Comfortaa' !important;
-  font-size: 14px !important;
-  content: "Update your email." !important;
-  text-transform: lowercase !important;
-  color: #5f5f5f !important;
-}
-
-
-.ms-style .ms-portal-close-mobile-top {
-  font-family: 'Comfortaa' !important;
-  text-transform: uppercase !important;
-}
-
-.ms-style .ms-portal-navlink {
-  font-family: 'Comfortaa' !important;
-  text-transform: uppercase !important;
-  min-height: 0px !important;
-}
-
-#billing > div:nth-child(1) > div.ms-portal-h1 {
-  font-size: 0px !important;
-}
-
-#billing > div:nth-child(1) > div.ms-portal-h1::before {
-  font-size: 18px !important;
-  font-family: 'Comfortaa' !important;
-  text-transform: lowercase !important;
-  content: "Manage Subscription" !important;
-}
-
-#billing > div:nth-child(2) > div.ms-portal-h1 {
-  font-size: 18px !important;
-  font-family: 'Comfortaa' !important;
-  text-transform: lowercase !important;
-}
-
-#billing > div:nth-child(3) > div.ms-portal-h1 {
-  font-size: 18px !important;
-  font-family: 'Comfortaa' !important;
-  text-transform: lowercase !important;
-}
-
-.ms-style .ms-portal-sub-cancel {
-  font-family: 'Comfortaa' !important;
-  text-transform: uppercase !important;
-}
-
- .ms-style .ms-portal-plan-price {
-  font-family: 'Comfortaa' !important;
-}
-
-.ms-style .ms-member-label.ms-active-label  {
-  font-family: 'Comfortaa' !important;
-}
-
-.ms-style .ms-portal-plan-name {
-  font-family: 'Comfortaa' !important;
-}
-
-.ms-checkout-header-text {
-
-}
-
-.ElementsApp .InputElement {
-  font-family: 'Comfortaa' !important;
-  color: #708bff !important;
-}
-
-#stripe-checkout-form > button {
-  font-family: 'Comfortaa' !important;
-  text-transform: uppercase !important;
-}
-
-#memberstack-checkout > div.ms-modal-container.ms-container-override > div.ms-checkout-padding > div:nth-child(4) > div.ms-checkout-plan.ms-card-override > div:nth-child(2) > div:nth-child(2) {
-  color: #5f5f5f !important;
-  text-transform: lowercase !important;
-}
-
-#stripe-checkout-form > label {
-  font-family: 'Comfortaa' !important;
-  color: #5f5f5f !important;
-  text-transform: lowercase !important;
-}
-
-.ms-checkout-plan-name {
-  font-family: 'Comfortaa' !important;
-  color: #708bff !important;
-}
-
-.ms-checkout-header-text {
-  visibility: hidden;
-}
-
-#memberstack-checkout > div.ms-modal-container.ms-container-override > div.ms-checkout-padding > div:nth-child(4) > div.ms-checkout-plan.ms-card-override > div.ms-checkout-pricing-wrapper > div:nth-child(1){
-  font-family: 'Comfortaa' !important;
-  color: #708bff !important;
-}
-
-#memberstack-checkout > div.ms-modal-container.ms-container-override > div.ms-checkout-header.ms-white-bg-override {
-  height: 0px;
-}
-
-#checkout-card-errors {
-  font-family: 'Comfortaa' !important;
-  color: #ff5a6d !important;
-  border: 1px #ffffff solid !important;
-  padding: 0px !important;
-  background-color: #ffffff !important;
-  box-shadow: none !important;
-
-}
-
-#token {
-  font-family: 'Comfortaa' !important;
-  color: #708bff !important;
-}
-
-#memberstack-forgot-portal > div > div > div:nth-child(1) > form > div.ms-skip-reset-email-link {
-  color: #70ffa9 !important;
-  font-family: 'Comfortaa' !important;
-  font-weight: 700 !important;
-}
-
-#memberstack-forgot-portal > div > div > div:nth-child(2) > form > div.ms-skip-reset-email-link > span {
-  color: #70ffa9 !important;
-  font-family: 'Comfortaa' !important;
-  text-transform: lowercase !important;
-  font-weight: 700 !important;
-}
-
-#memberstack-forgot-portal > div > div > div:nth-child(2) > form > div.ms-skip-reset-email-link > strong {
-  color: #70ffa9 !important;
-  font-family: 'Comfortaa' !important;
-  font-weight: 700 !important;
-}
-
-.ms-style .ms-password-field:focus {
-  border: 1px #9f9f9f solid !important;
-}
-
-#memberstack-forgot-portal > div > div > div:nth-child(1) > form > div.ms-password-text {
-  color: #5f5f5f !important;
-}
-
-#memberstack-forgot-portal > div > div > div:nth-child(2) > form > div.ms-password-text {
-  color: #5f5f5f !important;
-}
-
-#memberstack-forgot-portal > div > div > div:nth-child(1) > form > input.ms-password-button.w-button {
-  font-family: 'Comfortaa' !important;
-  text-transform: uppercase !important;
-}
-
-#memberstack-forgot-portal > div > div > div:nth-child(2) > form > input.ms-password-button.w-button  {
-  font-family: 'Comfortaa' !important;
-  text-transform: uppercase !important;
-}
-
-#memberstack-forgot-portal > div > div > div:nth-child(1) > form > label {
-  font-size: 0px !important;
-}
-
-#memberstack-forgot-portal > div > div > div:nth-child(1) > form > label::before {
-  font-family: 'Comfortaa' !important;
-  font-size: 14px !important;
-  content: "Confirm your email." !important;
-  text-transform: lowercase !important;
-  color: #5f5f5f !important;
-}
-
-#memberstack-forgot-portal > div > div > div:nth-child(2) > form > label:nth-child(6) {
-  font-size: 0px !important;
-}
-
-#memberstack-forgot-portal > div > div > div:nth-child(2) > form > label:nth-child(6)::before {
-  font-family: 'Comfortaa' !important;
-  font-size: 14px !important;
-  content: "Create a new password." !important;
-  text-transform: lowercase !important;
-  color: #5f5f5f !important;
-}
-
-#memberstack-forgot-portal > div > div > div:nth-child(2) > form > label:nth-child(8) {
-  font-size: 0px !important;
-}
-
-#memberstack-forgot-portal > div > div > div:nth-child(2) > form > label:nth-child(8)::before {
-  font-family: 'Comfortaa' !important;
-  font-size: 14px !important;
-  content: "Confirm your new password." !important;
-  text-transform: lowercase !important;
-  color: #5f5f5f !important;
-}
-
-#memberstack-forgot-portal > div > div > div:nth-child(2) > form > label:nth-child(4)  {
-  font-family: 'Comfortaa' !important;
-  font-size: 14px !important;
-  text-transform: lowercase !important;
-  color: #5f5f5f !important;
-}
-
-#memberstack-forgot-portal > div > div > div:nth-child(1) > form > div.ms-password-h1 {
-  font-family: 'Comfortaa' !important;
-  text-transform: lowercase !important;
-  color: #708bff !important;
-}
-
-#memberstack-forgot-portal > div > div > div:nth-child(2) > form > div.ms-password-h1  {
-  font-family: 'Comfortaa' !important;
-  text-transform: lowercase !important;
-  color: #708bff !important;
-}
-
-#signup-email {
-  font-family: 'Comfortaa' !important;
-  color: #708bff !important;
-}
-
-#login-email  {
-  font-family: 'Comfortaa' !important;
-  color: #708bff !important;
-}
-
-#forgotPasswordEmail   {
-  font-family: 'Comfortaa' !important;
-  color: #708bff !important;
-}
-
-#ms-error-message-box {
-  background: #ff5a6d !important;
-  box-shadow: none !important;
-  text-transform: lowercase;
-}
-
-
-#login-email-form > div:nth-child(2) > label {
-  font-size: 0px !important;
-}
-
-#login-email-form > div:nth-child(2) > label::before {
-  font-size: 14px !important;
-  content: "Confirm your password.";
-  text-transform: lowercase !important;
-}
-
-#login-email-form > div:nth-child(1) > label {
-  font-size: 0px !important;
-}
-
-#login-email-form > div:nth-child(1) > label::before {
-  font-size: 14px !important;
-  content: "Confirm your email.";
-  text-transform: lowercase !important;
-}
-
-#memberstack-profile > div.ms-portal > div.ms-portal-menu.w-clearfix > div.ms-portal-menu-wrap > div:nth-child(2) {
-  font-size: 0px !important;
-}
-
-#memberstack-profile > div.ms-portal > div.ms-portal-menu.w-clearfix > div.ms-portal-menu-wrap > div:nth-child(2)::before {
-  font-size: 12px !important;
-  content: "Subscription";
-}
-
-#signup-email-form > div:nth-child(1) > label {
-  font-size: 0px !important;
-}
-
-#signup-email-form > div:nth-child(1) > label::before {
-  font-size: 14px !important;
-  content: "Enter your email.";
-  text-transform: lowercase !important;
-}
-
-#signup-email-form > div:nth-child(2) > label  {
-  font-size: 0px !important;
-}
-
-#signup-email-form > div:nth-child(2) > label::before {
-  font-size: 14px !important;
-  content: "Create a password.";
-  text-transform: lowercase !important;
-}
-
-.ms-style .ms-login-or-signup-wrap {
-  visibility: hidden !important;
-}
-
-.ms-style .ms-error-message {
-  font-family: 'Comfortaa', sans-serif !important;
-}
-
-.ms-style .ms-signup-h1 {
-  font-family: 'Comfortaa', sans-serif !important;
-  visibility: hidden;
-  margin-top: 0px !important;
-}
-
-.ms-style .ms-signup-label {
-  font-family: 'Comfortaa', sans-serif !important;
-  color: #5f5f5f;
-}
-
-::placeholder {
-  font-family: 'Comfortaa', sans-serif !important;
-  color: #dfdfdf !important;
-  text-transform: lowercase !important;
-}
-
-.ms-style .ms-signup-button {
-  font-family: 'Comfortaa', sans-serif !important;
-  text-transform: uppercase !important;
-}
-
-.ms-style .ms-signup-button:after {
-  font-family: 'Comfortaa', sans-serif !important;
-  text-transform: uppercase !important;
-  content: " →" !important;
-}
-
-.ms-style .ms-signup-reset {
-  font-family: 'Comfortaa', sans-serif !important;
-  text-transform: lowercase;
-  margin-left: 0px !important;
-  float: none !important;
-  text-align: center !important;
-  font-size: 10px;
-  color: #70ffa9 !important;
-  font-weight: 700 !important;
-}
-
-.ms-style .ms-signup-reset:after {
-  font-family: 'Comfortaa', sans-serif !important;
-  text-transform: lowercase;
-  margin-left: none !important;
-  float: none !important;
-  text-align: center !important;
-  font-size: 10px;
-  font-weight: 700 !important;
-  color: #70ffa9 !important;
-  content: " →";
-}
-
-.ms-style .ms-style-override {
-  font-family: 'Comfortaa', sans-serif !important;
-}
-
-.ms-password-padding {
-   background-color: #ffffff !important;
-}
-.ms-reset-container {
-   background-color: #ffffff !important;
-}
-.ms-password-field {
-   border: 1px solid white !important;
-}
-.ms-password-h1 {
-   color: #ffffff !important;
-   font-family: 'Comfortaa', sans-serif !important;
-}
-.ms-password-text {
-   color: #ffffff !important;
-   font-family: 'Comfortaa', sans-serif !important;
-}
-.ms-password-label {
-   color: #ffffff !important;
-   font-family: 'Comfortaa', sans-serif !important;
-}
-
-.ms-portal {
-    background-color: #ffffff !important;
-} 
-.ms-portal-menu {
-    background-color: #ffffff !important;
-}
-.ms-portal-sub {
-    background-color: #ffffff !important;
-}
-.ms-portal-form {
-    color: #708bff !important;
-    font-family: 'Comfortaa', sans-serif !important;
-}
-
-.ms-checkout-header {
-    background-color: #ffffff !important;
-}
-.ms-checkout-header-text {
-    color: #708bff !important;
-    font-family: 'Comfortaa', sans-serif !important;
-} 
- 
-.ms-checkout-plan-duration {
-    color: #5f5f5f !important;
-    font-family: 'Comfortaa', sans-serif !important;
-} 
-.ms-checkout-price {
-    color: #708bff !important;
-    font-family: 'Comfortaa', sans-serif !important;
-}  
-.ms-checkout-label {
-    color: #708bff !important;
-    font-family: 'Comfortaa', sans-serif !important;
-}
-.ms-modal-container {
-    background-color: #ffffff !important;
-    border-color: #ffffff !important;
-}
-.ms-checkout-plan {
-    background-color: #ffffff !important;
-    font-family: 'Comfortaa', sans-serif !important;
-}
-.ms-field-override {
-    background-color: #ffffff !important;
-}
-
-/* end MEMBERSTACK */
-
-
-
 /* ----- // STYLES: keep & new (start) // ------ */
 
 
@@ -1102,7 +653,7 @@ h1 {
 
 @media screen and (max-width: 550px) {
   .h1-fcd-tdm {
-    font-size: 76px;
+    font-size: 48px;
   }
 }
 /* responsive font size (end) */
@@ -1643,7 +1194,7 @@ h1 {
 
 .pricing-table-icon-fee {
   padding-left: 5px;
-  color: #708bff;
+  color: #ffb88a;
   font-weight: 700px;
   font-style: normal;
   vertical-align: middle;
@@ -2235,4 +1786,189 @@ body {
 }
 
 /* ----- // FONTAWESOME(end) // ------ */
+
+
+
+/* start MEMBERSTACK v2.0 css */
+
+#msOverlay {
+  background-color: rgba(112, 139, 255, 0.35) !important;
+}
+
+.ms-modal__title {
+  visibility: hidden !important;
+  margin-bottom: 0px !important;
+  font-size: 0px !important;
+  line-height: 0px !important;
+}
+
+.ms-form__label {
+  margin-bottom: 0px !important;
+  font-size: 0px !important;
+  line-height: 0px !important;
+}
+
+.ms-form__input {
+  border-bottom: 1px solid #708bff !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-radius: 0px !important;
+  color: #708bff !important;
+  font-size: 22px !important;
+  font-family: 'Comfortaa' !important;
+}
+
+.ms-form__input:focus-visible {
+  outline: none !important;
+}
+
+.ms-form__password-container {
+  border-bottom: none !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-radius: 0px !important;
+}
+
+.ms-form__password-container:focus-within input {
+  border-bottom: none !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  outline: none !important;
+}
+
+.ms-form__password-container:focus-within {
+  border-bottom: 1px solid #708bff !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  outline: none !important;
+}
+
+.ms-form__flex {
+  justify-content: center !important;
+}
+
+.ms-modal {
+  color: #708bff !important;
+}
+
+.ms-modal__text {
+  color: #708bff !important;
+  text-transform: lowercase !important;
+  font-family: 'Comfortaa' !important;
+  font-size: 12px !important;
+  font-weight: bold !important;
+  line-height: 18px !important;
+  margin: 0px !important;
+  padding-top: 20px !important;
+}
+
+.ms-form__link {
+  color: #708bff !important;
+  text-transform: uppercase !important;
+  font-family: 'Bebas Neue' !important;
+  font-size: 12px !important;
+  font-weight: bold !important;
+  opacity: 0.15 !important;
+  line-height: 12px !important;
+  padding-top: 10px !important;
+  cursor: url('https://cdn.jsdelivr.net/gh/cdlckrs/tdm@76104f9df31b9fffcb968d26dd0d6a185fbd87e6/cursor-orange.svg'), default !important;
+}
+
+.ms-form__input--token {
+  border: 1px solid #708bff !important;
+  border-radius: 30px !important;
+  line-height: 24px !important;
+  max-width: 48px !important;
+  padding: 10px !important;
+}
+
+.ms-modal__close button {
+  color: #708bff !important;
+  width: 22px !important;
+  cursor: url('https://cdn.jsdelivr.net/gh/cdlckrs/tdm@76104f9df31b9fffcb968d26dd0d6a185fbd87e6/cursor-orange.svg'), default !important;
+}
+
+.ms-modal__back button {
+  color: #708bff !important;
+  top: 15px !important;
+  left: 15px !important;
+  cursor: url('https://cdn.jsdelivr.net/gh/cdlckrs/tdm@76104f9df31b9fffcb968d26dd0d6a185fbd87e6/cursor-orange.svg'), default !important;
+}
+
+.ms-modal__back svg {
+  height: 22px !important;
+}
+
+
+.ms-modal__footer {
+  visibility: hidden !important;
+  padding-top: 0px !important;
+}
+
+.ms-form__button {
+  text-transform: uppercase !important;
+  border-radius: 30px !important;
+  height: 60px !important;
+  margin-top: 0px !important;
+  font-family: 'Bebas Neue' !important;
+  font-weight: bold !important;
+  font-size: 30px !important;
+  cursor: url('https://cdn.jsdelivr.net/gh/cdlckrs/tdm@76104f9df31b9fffcb968d26dd0d6a185fbd87e6/cursor-orange.svg'), default !important;
+}
+
+.ms-form__button--text {
+  color: #0a0a0a !important;
+  font-family: 'Bebas Neue' !important;
+  font-weight: bold !important;
+  opacity: 0.15 !important;
+  font-size: 12px !important;
+  line-height: 12px !important;
+  height: 20px !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+
+.ms-form__show-toggle {
+  cursor: url('https://cdn.jsdelivr.net/gh/cdlckrs/tdm@76104f9df31b9fffcb968d26dd0d6a185fbd87e6/cursor-orange.svg'), default !important;
+}
+
+.ms-form__error {
+  text-transform: lowercase !important;
+  font-family: 'Comfortaa' !important;
+  color: #ffb88a !important;
+}
+
+.ms-error-message {
+  background-color: rgba(255,184,138, 0.3) !important;
+  color: #708bff !important;
+  font-family: 'Comfortaa' !important;
+  text-transform: uppercase !important;
+  font-weight: 700 !important;
+}
+
+#ms-message {
+  color: #708bff !important;
+  font-family: 'Comfortaa' !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+}
+
+#ms-status-icon {
+  width: 0px !important;
+  height: 0px !important;
+  margin-right: 10px !important;
+  visibility: hidden !important;
+}
+
+#ms-status-close {
+  visibility: hidden !important;
+  margin-left: 0px !important;
+}
+
+
+/* end MEMBERSTACK v2.0 css */
 
